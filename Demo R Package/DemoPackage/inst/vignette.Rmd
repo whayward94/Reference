@@ -1,0 +1,38 @@
+---
+title: "DemoPackage"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{DemoPackage}
+  %\VignetteEngine{knitr::rmarkdown}
+  \userpackage[utf8]{inputenc}
+---
+
+# Introduction
+This is the vignette for the DemoPackage. This serves as a basic reference guide for the package. In reality, this can be made as complicated or simple as desired.
+
+# Contact Information
+Please contact William with any questions.
+
+# Background
+This is really strictly for demonstration purposes.
+
+# Functions
+Index of Functions
+
+- [generic_function](#generic_function)
+
+## generic_function
+Generic Function
+
+## Description
+A very boring example function, really just here so there is something in the package.
+
+## Arguments
+`input_number1`   A number of your choosing
+
+`input_number2`   Another number of your choosing (can be the same or different)
+
+## Example
+noisy_variable <- generic_function(4,3)
+
+[back to the top](#functions)
