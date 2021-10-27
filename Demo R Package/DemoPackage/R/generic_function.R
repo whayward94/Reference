@@ -2,8 +2,8 @@
 #' 
 #' @description A very boring function, but really just here for example.
 #' 
-#' @param input_number1
-#' @param input_number2
+#' @param input_number1 A number of your choosing
+#' @param input_number2 Another number of your choosing (can be the same or different)
 #' 
 #' @return A number (about double) with some random noise
 #' @export

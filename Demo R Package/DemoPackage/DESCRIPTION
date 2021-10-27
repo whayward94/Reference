@@ -4,15 +4,18 @@ Version: 0.0.0.9000
 Authors@R: 
 	c(person("William",
 		 "Hayward",
-		 role = c("aut","cre"))
+		 email = "dont_email_for_this_package@gmail.com",
+		 role = c("aut","cre")))
 Description: This package is a simple demonstration of an R package, and includes
 	     all of the basic building blocks. It could easily be expanded to 
 	     create a new package.
+	     The data.table requirement and dplyr suggestion are just there as a 
+	     reminder of that functionality.
 License: No idea!
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports:
-	datatable
+	data.table
 Suggests:
 	dplyr
